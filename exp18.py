@@ -1,0 +1,10 @@
+def is_sorted(l1):
+    l2=l1.copy()
+    if(l1==l2):
+        return True
+    else:
+        return False
+
+list_1=[1,2,3,4,5]
+res=is_sorted(list_1)
+print(res)
